@@ -59,7 +59,7 @@
     name: "C (GCC 9.2.0)",
     is_archived: false,
     source_file: "main.c",
-    compile_cmd: "/usr/local/gcc-9.2.0/bin/gcc %s main.c",
+    compile_cmd: "/usr/bin/gcc %s main.c",
     run_cmd: "./a.out"
   },
   {
@@ -213,14 +213,14 @@
     name: "Python (2.7.17)",
     is_archived: false,
     source_file: "script.py",
-    run_cmd: "/usr/local/python-2.7.17/bin/python2 script.py"
+    run_cmd: "/usr/bin/python2 script.py"
   },
   {
     id: 71,
     name: "Python (3.8.1)",
     is_archived: false,
     source_file: "script.py",
-    run_cmd: "/usr/local/python-3.8.1/bin/python3 script.py"
+    run_cmd: "/usr/bin/python3 script.py"
   },
   {
     id: 72,
